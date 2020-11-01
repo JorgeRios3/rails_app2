@@ -9,6 +9,6 @@ class Api::PokemonControllerTest < ActionController::TestCase
     test "otra" do
         controller = Api::PokemonController.new
         val = controller.otro(1,2)
-        assert_equal val, 3 
+        assert_equal val, 3  
     end
 end
